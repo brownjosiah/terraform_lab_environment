@@ -1,5 +1,5 @@
 
-provider "aws_use1" {
+provider "aws-use1" {
   profile = "acu_dev_terraform_dev"
   region  = "us-east-1"
   default_tags { 
@@ -13,7 +13,7 @@ provider "aws_use1" {
 }
 
 // Adding multiple providers for other regions/AZs
-provider "aws_usw1" {
+provider "aws-usw1" {
   profile = "acu_dev_terraform_dev"
   region  = "us-west-1"
   default_tags { 
