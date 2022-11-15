@@ -13,15 +13,15 @@ provider "aws" {
 }
 
 // Adding multiple providers for other regions/AZs
-provider "aws" {
-  alias = "aws_usw1"
-  profile = "acu_dev_terraform_dev"
-  region  = "us-west-1"
-  default_tags { 
-    tags = {
-    owner = "Josiah Brown"
-    project = "Tiny Terraform Instance" 
-    environment = "dev"
-    }
-  }
-}
+# provider "aws" {
+#   alias = "aws_usw1"
+#   profile = "acu_dev_terraform_dev"
+#   region  = "us-west-1"
+#   default_tags { 
+#     tags = {
+#     owner = "Josiah Brown"
+#     project = "Tiny Terraform Instance" 
+#     environment = "dev"
+#     }
+#   }
+# }
